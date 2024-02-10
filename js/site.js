@@ -30,7 +30,7 @@ function SendContactForm(FormType) {
         $("#fullname").val("");
         $("#contactNo").val("");
         $("#message").val("");
-        // $("#MineBntForm").prop("disabled", false);
+        $("#SentFromForm").prop("disabled", false);
         localStorage.setItem("pkgname", null);
         return true;
       });
@@ -66,7 +66,8 @@ function SendContactForm(FormType) {
         $("#fullnameC").val("");
         $("#contactNoC").val("");
         $("#messageC").val("");
-        // $("#MineBntForm").prop("disabled", false);
+        $("#SentFromContact").prop("disabled", false);
+        $("#SentResponse").prop("disabled", false);
         localStorage.setItem("pkgname", null);
         return true;
       });
@@ -102,7 +103,9 @@ function SendContactForm(FormType) {
           $("#fullnameBModal").val("");
           $("#contactNoBModal").val("");
           $("#messageBModal").val("");
-          // $("#MineBntForm").prop("disabled", false);
+          $("#SentFromContact").prop("disabled", false);
+          $('#SentResponse').prop("disabled", false);
+          $("#SentResponse").prop("disabled", false);
           localStorage.setItem("pkgname", null);
           return true;
         });

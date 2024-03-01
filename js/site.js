@@ -18,7 +18,7 @@ function SendContactForm(FormType) {
         website: "Gujarat",
       };
 
-      fetch("https://darshanrathazurebackend.azurewebsites.net/apiapi/sendEmail", {
+      fetch("https://darshanrathazurebackend.azurewebsites.net/api/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -54,7 +54,7 @@ function SendContactForm(FormType) {
         website: "Gujarat",
       };
 
-      fetch("https://darshanrathazurebackend.azurewebsites.net/apiapi/sendEmail", {
+      fetch("https://darshanrathazurebackend.azurewebsites.net/api/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -91,7 +91,7 @@ function SendContactForm(FormType) {
           website: "Gujarat",
         };
         //  console.log(templateParams);
-        fetch("https://darshanrathazurebackend.azurewebsites.net/apiapi/sendEmail", {
+        fetch("https://darshanrathazurebackend.azurewebsites.net/api/sendEmail", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -205,7 +205,7 @@ $("#PackageEnquirySent").click(function () {
       website: "Gujarat",
     };
 
-    fetch("https://darshanrathazurebackend.azurewebsites.net/apiapi/sendEmail", {
+    fetch("https://darshanrathazurebackend.azurewebsites.net/api/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

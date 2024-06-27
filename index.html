@@ -85,6 +85,18 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
         /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+        @-webkit-keyframes blackWhite {  
+    0% { background-color: #25d366; }
+    50% { background-color: orangered; }
+    51% { background-color: darkorange; }
+    100% { background-color: darkcyan; }
+  }
+        #blinkDiv {
+      background-color: black;
+      -webkit-animation-name: blackWhite;  
+      -webkit-animation-iteration-count: infinite;  
+      -webkit-animation-duration: 2s; 
+  }
         html {
             font-family: sans-serif;
             -ms-text-size-adjust: 100%;
@@ -7435,14 +7447,14 @@
             <div class="support">
                 <i class="bi bi-telephone"></i>
                 <!-- <span>8320746114</span>  -->
-                <a class="CustomA pcCall" href="tel:919643368210">
-                    24*7 Support 9643368210
+                <a class="CustomA pcCall" href="tel:919898812766">
+                    24*7 Support 9898812766
                 </a>
-                <a hidden class="CustomA mobileCall" href="tel:919643368210">
-                    9643368210
+                <a hidden class="CustomA mobileCall" href="tel:919898812766">
+                    9898812766
                 </a>
             </div>
-            <!-- Support 9643368210 -->
+            <!-- Support 9898812766 -->
         </div>
         <div class="right flex">
 
@@ -7479,7 +7491,7 @@
                     <div class="col-md-12 col-md-offset-0 text-left">
 
                         <div class="row row-mt-15em">
-                            <div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
+                            <!-- <div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
                                 <h1>Gujarat tour Package Details</h1>
                                 <p class="Pbox just" style="text-align: justify;">
                                     Fill The form To Get FREE CONSULTATION CALL<br>
@@ -7488,9 +7500,9 @@
                                     Want Detailed & FREE Itinerary in Whatsaap<a
                                         href="https://wa.me/+918117887130/?text=Hello"><i class="bi bi-whatsapp"></i>
                                         Click Here</a>
-                                </p>
+                                </p> -->
                             </div>
-                            <div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
+                            <!-- <div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
                                 <div class="form-wrap">
                                     <div class="tab">
 
@@ -7500,14 +7512,14 @@
                                                 <form action="#">
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <!-- @*<label for="fullname">Your Name</label>*@ -->
+                                                            @*<label for="fullname">Your Name</label>*@
                                                             <input type="text" id="fullname" placeholder="Your Name"
                                                                 class="form-control">
                                                             <div class="text-danger" id="fullnameval" hidden>This Field
                                                                 is required.</div>
                                                         </div>
                                                     </div>
-                                                    <!-- <div class="row form-group">
+                                                    <div class="row form-group">
                                                         <div class="col-md-12">
                                                             @*<label for="email">E-mail Id</label>*@
                                                             <input type="text" id="mailId" placeholder="E-mail"
@@ -7515,10 +7527,10 @@
                                                             <div class="text-danger" id="mailIdval" hidden>This Field is
                                                                 required.</div>
                                                         </div>
-                                                    </div> -->
+                                                    </div>
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <!-- @*<label for="contactNo">Contact No</label>*@ -->
+                                                            @*<label for="contactNo">Contact No</label>*@
                                                             <input type="number" id="contactNo" placeholder="Contact No"
                                                                 class="form-control">
                                                             <div class="text-danger" id="contactNoval" hidden>This Field
@@ -7527,12 +7539,12 @@
                                                     </div>
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <!-- @*<label for="date-start">Message</label>*@ -->
+                                                            @*<label for="date-start">Message</label>*@
                                                             <textarea type="text" id="message"
                                                                 class="form-control"></textarea>
                                                         </div>
                                                     </div>
-                                                    <!-- <div class="row form-group">
+                                                    <div class="row form-group">
                                                         <div class="col-md-12">
                                                             @*<label for="date-start">Message</label>*@
                                                             <input type="date" class="form-control" id="StartDate">
@@ -7552,7 +7564,7 @@
                                                                 <option value="10">10</option>
                                                             </select>
                                                         </div>
-                                                    </div> -->
+                                                    </div>
 
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
@@ -7567,7 +7579,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
 
@@ -7700,33 +7712,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost">
-
-                                    <div class="col-sm-12 col-xs-12 offer_price_heading">
-                                        <h4>
-                                            <!-- <span class="INR">Rs.</span>
-                                            <span>6200</span> -->
-                                            Price on request
-                                        </h4>
-                                        <!-- <p style="text-align: center;">Starting price per adult</p> -->
-                                    </div>
-
-                                    <div class="col-xs-12 m-compareformat btn_holder_srp">
-                                        <div class="col-sm-12 col-xs-12 book_online_btn_wants want_us_to_cl_srp_tc">
-                                            <a onclick="PackageEnquiry('Dwarka Somnath Tour')"
-                                                class="wantus_call_btn wantus_tocall_srp col-xs-12">
-                                                <span class="tc-tollno"></span>
-                                                <span>WANT US TO CALL YOU</span>
-                                            </a>
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12 " style="margin: 1px;">
-                                            <a target=”_blank” href="https://wa.me/918320746114?text=Hello"
+                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost" style="padding: 10px 50px 50px 50px;">
+                                    <a style="height: 65px; width: 150px; margin: 1px;" id="blinkDiv" target=”_blank” href="https://wa.me/918320746114?text=Hello I need Gujarat Tour"
                                                 class="wantus_call_btn wantus_tocall_wp col-xs-12">
-                                                <span>GET FREE QUOTE IN WHATSAPP</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
+                                                <span style="font-size: 16px;">GET FREE QUOTE IN WHATSAPP</span>
+                                    </a>
                                 </div>
 
                             </div>
@@ -7922,33 +7912,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost">
-
-                                    <div class="col-sm-12 col-xs-12 offer_price_heading">
-                                        <h4>
-                                            <!-- <span class="INR">Rs.</span>
-                                            <span>9699</span> -->
-                                            Price on request
-                                        </h4>
-                                        <!-- <p style="text-align: center;">Starting price per adult</p> -->
-                                    </div>
-
-                                    <div class="col-xs-12 m-compareformat btn_holder_srp">
-                                        <div class="col-sm-12 col-xs-12 book_online_btn_wants want_us_to_cl_srp_tc">
-                                            <a onclick="PackageEnquiry('Dwarka With Amdavad')"
-                                                class="wantus_call_btn wantus_tocall_srp col-xs-12">
-                                                <span class="tc-tollno"></span>
-                                                <span>WANT US TO CALL YOU</span>
-                                            </a>
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12 " style="margin: 1px;">
-                                            <a target=”_blank” href="https://wa.me/918320746114?text=Hello"
+                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost" style="padding: 10px 50px 50px 50px;">
+                                    <a style="height: 65px; width: 150px; margin: 1px;" id="blinkDiv" target=”_blank” href="https://wa.me/918320746114?text=Hello I need Gujarat Tour"
                                                 class="wantus_call_btn wantus_tocall_wp col-xs-12">
-                                                <span>GET FREE QUOTE IN WHATSAPP</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
+                                                <span style="font-size: 16px;">GET FREE QUOTE IN WHATSAPP</span>
+                                    </a>
                                 </div>
 
                             </div>
@@ -8146,33 +8114,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost">
-
-                                    <div class="col-sm-12 col-xs-12 offer_price_heading">
-                                        <h4>
-                                            <!-- <span class="INR">Rs.</span>
-                                            <span>14 599</span> -->
-                                            Price on request
-                                        </h4>
-                                        <!-- <p style="text-align: center;">Starting price per adult</p> -->
-                                    </div>
-
-                                    <div class="col-xs-12 m-compareformat btn_holder_srp">
-                                        <div class="col-sm-12 col-xs-12 book_online_btn_wants want_us_to_cl_srp_tc">
-                                            <a onclick="PackageEnquiry('Statue Of Unity')"
-                                                class="wantus_call_btn wantus_tocall_srp col-xs-12">
-                                                <span class="tc-tollno"></span>
-                                                <span>WANT US TO CALL YOU</span>
-                                            </a>
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12 " style="margin: 1px;">
-                                            <a target=”_blank” href="https://wa.me/918320746114?text=Hello"
+                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost" style="padding: 10px 50px 50px 50px;">
+                                    <a style="height: 65px; width: 150px; margin: 1px;" id="blinkDiv" target=”_blank” href="https://wa.me/918320746114?text=Hello I need Gujarat Tour"
                                                 class="wantus_call_btn wantus_tocall_wp col-xs-12">
-                                                <span>GET FREE QUOTE IN WHATSAPP</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
+                                                <span style="font-size: 16px;">GET FREE QUOTE IN WHATSAPP</span>
+                                    </a>
                                 </div>
 
                             </div>
@@ -8371,33 +8317,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost">
-
-                                    <div class="col-sm-12 col-xs-12 offer_price_heading">
-                                        <h4>
-                                            <!-- <span class="INR">Rs.</span>
-                                            <span>16 899</span> -->
-                                            Price on request
-                                        </h4>
-                                        <!-- <p style="text-align: center;">Starting price per adult</p> -->
-                                    </div>
-
-                                    <div class="col-xs-12 m-compareformat btn_holder_srp">
-                                        <div class="col-sm-12 col-xs-12 book_online_btn_wants want_us_to_cl_srp_tc">
-                                            <a onclick="PackageEnquiry('Temples With Beaches')"
-                                                class="wantus_call_btn wantus_tocall_srp col-xs-12">
-                                                <span class="tc-tollno"></span>
-                                                <span>WANT US TO CALL YOU</span>
-                                            </a>
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12 " style="margin: 1px;">
-                                            <a target=”_blank” href="https://wa.me/918320746114?text=Hello"
+                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost" style="padding: 10px 50px 50px 50px;">
+                                    <a style="height: 65px; width: 150px; margin: 1px;" id="blinkDiv" target=”_blank” href="https://wa.me/918320746114?text=Hello I need Gujarat Tour"
                                                 class="wantus_call_btn wantus_tocall_wp col-xs-12">
-                                                <span>GET FREE QUOTE IN WHATSAPP</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
+                                                <span style="font-size: 16px;">GET FREE QUOTE IN WHATSAPP</span>
+                                    </a>
                                 </div>
 
                             </div>
@@ -8598,33 +8522,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost">
-
-                                    <div class="col-sm-12 col-xs-12 offer_price_heading">
-                                        <h4>
-                                            <!-- <span class="INR">Rs.</span>
-                                            <span>19 599</span> -->
-                                            Price on request
-                                        </h4>
-                                        <!-- <p style="text-align: center;">Starting price per adult</p> -->
-                                    </div>
-
-                                    <div class="col-xs-12 m-compareformat btn_holder_srp">
-                                        <div class="col-sm-12 col-xs-12 book_online_btn_wants want_us_to_cl_srp_tc">
-                                            <a onclick="PackageEnquiry('Temples With Wildlife')"
-                                                class="wantus_call_btn wantus_tocall_srp col-xs-12">
-                                                <span class="tc-tollno"></span>
-                                                <span>WANT US TO CALL YOU</span>
-                                            </a>
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12 " style="margin: 1px;">
-                                            <a target=”_blank” href="https://wa.me/918320746114?text=Hello"
+                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost" style="padding: 10px 50px 50px 50px;">
+                                    <a style="height: 65px; width: 150px; margin: 1px;" id="blinkDiv" target=”_blank” href="https://wa.me/918320746114?text=Hello I need Gujarat Tour"
                                                 class="wantus_call_btn wantus_tocall_wp col-xs-12">
-                                                <span>GET FREE QUOTE IN WHATSAPP</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
+                                                <span style="font-size: 16px;">GET FREE QUOTE IN WHATSAPP</span>
+                                    </a>
                                 </div>
 
                             </div>
@@ -8828,33 +8730,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost">
-
-                                    <div class="col-sm-12 col-xs-12 offer_price_heading">
-                                        <h4>
-                                            <!-- <span class="INR">Rs.</span>
-                                            <span>16 899</span> -->
-                                            Price on request
-                                        </h4>
-                                        <!-- <p style="text-align: center;">Starting price per adult</p> -->
-                                    </div>
-
-                                    <div class="col-xs-12 m-compareformat btn_holder_srp">
-                                        <div class="col-sm-12 col-xs-12 book_online_btn_wants want_us_to_cl_srp_tc">
-                                            <a onclick="PackageEnquiry('Best Of Archeological')"
-                                                class="wantus_call_btn wantus_tocall_srp col-xs-12">
-                                                <span class="tc-tollno"></span>
-                                                <span>WANT US TO CALL YOU</span>
-                                            </a>
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12 " style="margin: 1px;">
-                                            <a target=”_blank” href="https://wa.me/918320746114?text=Hello"
+                                <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost" style="padding: 10px 50px 50px 50px;">
+                                    <a style="height: 65px; width: 150px; margin: 1px;" id="blinkDiv" target=”_blank” href="https://wa.me/918320746114?text=Hello I need Gujarat Tour"
                                                 class="wantus_call_btn wantus_tocall_wp col-xs-12">
-                                                <span>GET FREE QUOTE IN WHATSAPP</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
+                                                <span style="font-size: 16px;">GET FREE QUOTE IN WHATSAPP</span>
+                                    </a>
                                 </div>
 
                             </div>
@@ -9085,8 +8965,8 @@
                             -700019
                         </p>
                         <h4><i class="bi bi-telephone-fill"></i> Call</h4>
-                        <a href="tel:919643368210">
-                            <p>9643368210</p>
+                        <a href="tel:919898812766">
+                            <p>9898812766</p>
                         </a>
                         <h4><i class="bi bi-envelope-at"></i> Email</h4>
                         <p>tour1@darshanrathholidays.com</p>
@@ -9302,7 +9182,30 @@
         </div>
     </div>
     </div>
-
+    <div class="modal fade" id="CallModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Get Free Tour Itinerary</h4>
+                </div>
+                <div class="modal-body" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+                    <div class="row">
+                        <!-- <div class="col-md-12">
+                            <a href="tel:918320746114"><button type="button" class="btn btn-primary"><i class="bi bi-telephone my-float-call"></i>Call Now</button></a>
+                        </div>   -->
+                        <div class="col-md-12">
+                            <a href="https://wa.me/918320746114?text=Hello I need Gujarat Tour"><button type="button" class="btn btn-success"><i class="bi bi-whatsapp my-float"></i>Whatsapp</button></a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- <div class="gototop js-top">
         <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
     </div> -->
@@ -9343,6 +9246,10 @@
         function InActiveDiv(DivId) {
             $("#" + DivId).removeClass('active');
         }
+        window.onload = function() {
+            // alert("Welcome to Darshan Rath Holidays");
+            $('#CallModel').modal('show');
+        };
     </script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/site.js"></script>

@@ -147,7 +147,7 @@ function GoToDiv(ID) {
       1000
     );
   } else {
-    if (ID == "VanarasiPackageDiv") {
+    if (ID == "GujaratPackageDiv") {
       var height = $("body").height();
       $("html, body").animate(
         {
@@ -155,7 +155,7 @@ function GoToDiv(ID) {
         },
         1000
       );
-    } else if (ID == "KashiBestAttraction") {
+    } else if (ID == "GujaratBestAttraction") {
       var height = $("body").height();
       $("html, body").animate(
         {
